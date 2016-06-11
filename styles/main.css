@@ -29,6 +29,9 @@ input[type="search"] {
     top: 10px;
     left: 150px;
 }
+h1,h2,h3,h4,h5,h6{
+    font-weight: normal;
+}
 
 .active {
     color:#4285f4 !important;
@@ -155,4 +158,119 @@ input[type="search"] {
 
 #tab-contents ul {
     margin-left: 100px;
+}
+#result_count{
+    display: block;
+    position: relative;
+    color: #999;
+    font-size: 13px;
+    top: 60px;
+    left: 150px;
+    width: 20%;
+}
+#related_search{
+    display: block;
+    position: relative;
+    width: 40%;
+    border-top: solid #ebebeb 1px;
+    border-bottom: solid #ebebeb 1px;
+    left: 150px;
+    top:100px;
+}
+#related_search h3{
+    color: #808080;
+    position: relative;
+    width: 100%;
+}
+.top_result{
+    position: relative;
+    top:70px;
+    width: 50%;
+    height: 330px;
+    left: 150px;
+    border-bottom: solid #ebebeb 1px;
+}
+.more_results{
+    display: block;
+    position: relative;
+    top:70px;
+    width: 50%;
+    left: 150px;
+    
+}
+.top_result_title, .link_title, .top_more_results, .result_title, .related_links{
+    color:#1a0dab;
+    font-weight: normal;
+}
+.top_desc, .link_desc, .desc{
+    color:#6a6a6a;
+}
+.top_desc, .desc{
+    position: relative;
+    top:-65px;
+    font-size: 14px;
+}
+.desc{
+    font-size: 12px !important;
+    width: 80%;
+}
+.link_desc{
+    font-size: 12px;
+    width: 80%;
+    display: block;
+    position: relative;
+    top: -25px;
+}
+.top_result_url, .result_url{
+    font-size: 14px;
+    font-weight: normal;
+    color:#006621;
+    position: relative;
+    top:-35px;
+}
+.sublinks_main{
+    position: relative;
+    width: 100%;
+}
+.links_container{
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    position: relative;
+    width: 100%;
+    margin-left: 20px;
+    top: -100px;
+}
+.link{
+    display: block;
+    position: relative;
+    width: 50%;
+    padding-right: 40px;
+    margin-bottom: -50px;
+}
+.top_more_results{
+    position: relative;
+    top:-100px;
+    margin-left: 20px;
+}
+.result_item{
+    display: block;
+    position: relative;
+    height: 80px;
+}
+#related_links_container{
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    position: relative;
+    width: 100%;
+}
+.related_links{
+    -webkit-flex-flow: column;
+    -ms-flex-flow: column;
+    flex-flow: column;
+    position: relative;
+    width: 100%;
 }
